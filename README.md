@@ -1,36 +1,14 @@
 
-Wifi web rádió felhasználói utasítás.
-
-- A webrádió kizárólag internetes streamek lejátszására képes.
-
-- Önnállóan, wifi és internet hiányában nem működik !
-
-- Támogatott Wifi szabvány: 2,4 GHz 
+Wifi web rádió
 
 
-A rendszer elemei:
+	A webrádió kizárólag internetes streamek lejátszására képes.
 
-- Webrádio
-- Érintő toll
-- Hangfalak
-- Tápegység(230/12V Dc 5A)
+	Önnállóan, Wi-Fi és internet hiányában nem működik !
 
-Beüzemelés:
-
-A rendszer a hálózathoz(230V) csatlakoztazot tápegységen keresztül kell működtetni. A tápegység 12 Volt 5 Amper terhelhetőségű, mely paraméterektől eltérni nem szabad, különben a berendezés károsodásához vezet.
-
-A tápegységet a rádió hátulján található 12V DC feliratú aljzathoz kell csatlakozatni.
-
-A főkapcsoló gomb BE állásba történő átbillentésvel kapcsoljuk be a készüléket.
-
-Első indításkor amennyiben nem tud ismerős hálózathoz csatlakozni amutoamtikusan átvált AP módba(hozzáférési pont mód)
-Ilyenkor a kijelzőn láthatő SSID-t közvetíti(YanO-Radio_AP). Az erre alkalmas wifi képes készülékkel csatlakozzunk hozzás a kijelzőn látható jelszó segítségével(12345987).
-
-Állítsuk be a saját wifi hálózatunk SSID-jét és jelszavát, ha megvagyunk SAVE-REBOOT gomb megnyomása után megpróbál csatlakozni a hálózathoz.
-Ha a hitelesítő adatok megfeleőek voltal akkot DHCP-n kap ÍP címet és a beállított lejátszási listából az eslő adót automatikusan elkezdi lejátszani.
-
-Amenyiben hiba történne a hitelesítés alatt, újra AP módba vált és meg kell adni az adatokat újra(lehetőleg helyesen)
-
+	Támogatott Wi-Fi szabvány: 2,4 GHz
+  
+<img width="756" height="482" alt="Render" src="https://github.com/user-attachments/assets/8f474802-53bd-4fce-999c-9da3566688f6" />
 
 
 Funkciók:
@@ -38,13 +16,13 @@ Funkciók:
 	Magas bitrátájú online streamek lejátszása.
 	
 	320X240 pixel felbontású színes érintős TFT kijelző
-	
+
 	Oled óra 24 órás formátum, villogó : másodperc jelővel.
-	
+
 	2.1 hangrenszer külön állítható Front Mély Hangerő szabályozó potméterekkel.
 	
 	Analóg LED-es kivezérlésjelző.
-	
+
 	Erősítő és hangfelvédelem.
 	
 	Képernyővédő
@@ -56,7 +34,9 @@ Funkciók:
 	DLNA++ Media Renderer funkció az on th fly file átvitelhez windows/android rendszeről. 
 	- Hi-Fi cast, BubbleUpnp app segítségvel.
 
-	
+<img width="2432" height="1816" alt="kijelző" src="https://github.com/user-attachments/assets/fa804c5f-bae4-49a0-9fde-848a78204a54" />
+<img width="1817" height="820" alt="oled" src="https://github.com/user-attachments/assets/c87a6f3f-2148-459e-939e-8cc58540ddc7" />
+<img width="2384" height="1624" alt="erősítő" src="https://github.com/user-attachments/assets/a09db8cd-7735-49b6-b620-c8fe8fb3c9f2" />	
 	
 
 
@@ -122,23 +102,20 @@ Webszerver funkciói:
 	Firmware frissítő
 	Beállítások
 	Rádió kereső
-	
-	
 
-Történelem:
+<img width="495" height="823" alt="playerweb" src="https://github.com/user-attachments/assets/cb7379b2-d6b2-4a37-85ae-6724d369fbeb" />
 
-ide jönn a koncepció leírás,
-alkatrész lista,
-a rajzok kezdve a kézzel készült rajzzal, aztán a látványtervvel(ekkel)
-majd a kész terv a 3d fájlból(mint kép és mint összeszerelési ábra)
-végül az elkészült rendszerről a kép/ek.
 
-források: 
+Források: 
 
--eredeti yoradio2002(kell a linkje, elérhetősége)
--varaitamas - github (kell a linkje, elérhetősége)
--soapdlna (kell a linkje, elérhetősége)
--ChatGPT 5.2 many thx !
+	https://github.com/e2002/yoradio
+
+	https://github.com/VaraiTamas/yoRadio/
+
+	https://github.com/yellobyte/SoapESP32
+
+	https://chatgpt.com/
+
 
 
 

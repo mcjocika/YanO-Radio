@@ -1,0 +1,30 @@
+1 db EM-50189 (HEKIT-189) Stereo kivezérlésjelző, 2-soros, logaritmikus
+
+1 db DFPlayer-16P MP3 lejátszó modul, microSD foglalattal 
+
+1 db ESP32-S3-WROOM-1-N16R8-M ESP32 S3 fejlesztői modul, 16MB Flash, 8MB PSRAM, WiFi, Bluetooth 5, USB-C UART, USB-C OTG, microSD foglalat
+
+1 db MSP2807 2.8" SPI TFT modul, rezisztív érintőkijelző, microSD kártyafoglalattal
+
+1 db FRONT-ROT-OLED13 Előlapi kezelőpanel modul, 1.3inch OLED kijelzővel, rotary encoderrel, 2 gombbal, I2C
+	Kivezetés: 2.54mm tüskesor (tartozék)
+	Méretek: 65 x 35mm
+	Furat távolságok: 59.5mm és 29.5mm
+	Furatátmérő: Ø3.2mm
+
+1 db CJMCU-1334 UDA1334A alapú sztereó audio dekóder modul, DAC, I2S
+	Méret: 41 x 25.5 x 7.5mm
+
+1 db ESP32-S3-EXP-44P ESP32-S3 kifejtő modul, táp áramkörrel, 44pin, 25.4mm
+	Tüskesor aljzat: 44pin (2x22pin)
+	Tüskesor aljzat láb-sor távolság: 25.4mm és 33.02mm
+
+	Méretek: 82 x 82mm
+	Szerelő furat távolságok: 76 x 76.5mm
+	Szerelő furat átmérő: Ø3mm 
+
+1 db STDN-3A24-ADJ 3A állítható step-down DC-DC kapcsolóüzemű tápegység modul, 1.8V/2.5V/3.3V/5V/9V/12V
+
+1 db XH-M139  TPA3116D2 sztereo erősítő modul, 2.1 csatornás, 2x50W, 12-24V DC
+	Méretek: 100x70x30mm 
+	

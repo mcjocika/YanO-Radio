@@ -116,7 +116,9 @@ Források:
 
 	https://chatgpt.com/
 
+3D fájlok:
 
+	https://www.printables.com/model/1627343-yano-radio
 
 
 

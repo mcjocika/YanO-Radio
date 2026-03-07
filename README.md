@@ -4,7 +4,7 @@ Wi-Fi web rádió
 
 https://www.youtube.com/watch?v=gppzjGApgt8
 
-<img width="1278" height="953" alt="szólarádio" src="https://github.com/user-attachments/assets/853d9433-2151-4788-a318-95719ffab846" />
+<img width="800" height="600" alt="szólarádio" src="https://github.com/user-attachments/assets/853d9433-2151-4788-a318-95719ffab846" />
 
 		
 	A webrádió kizárólag vezeték nélküli hálózat megléte esetén működik!
@@ -34,9 +34,9 @@ Funkciók:
 	DLNA++ Media Renderer funkció az on-the-fly fájlátvitelhez Windows/Android rendszerről. 
 	- Hi-Fi Cast, BubbleUPnP alkalmazások segítségével.
 
-<img width="2432" height="1816" alt="kijelző" src="https://github.com/user-attachments/assets/fa804c5f-bae4-49a0-9fde-848a78204a54" />
-<img width="1817" height="820" alt="oled" src="https://github.com/user-attachments/assets/c87a6f3f-2148-459e-939e-8cc58540ddc7" />
-<img width="2384" height="1624" alt="erősítő" src="https://github.com/user-attachments/assets/a09db8cd-7735-49b6-b620-c8fe8fb3c9f2" />	
+<img width="800" height="600" alt="kijelző" src="https://github.com/user-attachments/assets/fa804c5f-bae4-49a0-9fde-848a78204a54" />
+<img width="800" height="600" alt="oled" src="https://github.com/user-attachments/assets/c87a6f3f-2148-459e-939e-8cc58540ddc7" />
+<img width="800" height="600" alt="erősítő" src="https://github.com/user-attachments/assets/a09db8cd-7735-49b6-b620-c8fe8fb3c9f2" />	
 	
 
 

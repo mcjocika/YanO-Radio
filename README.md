@@ -1,9 +1,8 @@
 Wi-Fi web rádió
 
+![myradio (1) (1) (1)](https://github.com/user-attachments/assets/3dcf2011-83cd-415f-97e0-0de0eaf098bf)
+
 <img width="1278" height="953" alt="szólarádio" src="https://github.com/user-attachments/assets/853d9433-2151-4788-a318-95719ffab846" />
-
-![myradio](https://github.com/user-attachments/assets/72226e31-1d7c-412d-ad05-e83fd159029f)
-
 
 	A webrádió kizárólag vezeték nélküli hálózat megléte esetén működik!
 

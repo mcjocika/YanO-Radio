@@ -1,5 +1,7 @@
 Wi-Fi web rádió
 
+![20260307_091635-ANIMATION](https://github.com/user-attachments/assets/54be1239-b738-495c-a78e-9093f7b58df1)
+
 ![myradio (1) (1) (1)](https://github.com/user-attachments/assets/3dcf2011-83cd-415f-97e0-0de0eaf098bf)
 
 

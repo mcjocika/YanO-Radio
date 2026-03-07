@@ -2,13 +2,15 @@ Wifi web rádió
 
 ![IMG_20260307_084840](https://github.com/user-attachments/assets/3a6bfadd-b1a1-4026-a0ad-a73887c85e3c)
 
+<img width="756" height="482" alt="Render" src="https://github.com/user-attachments/assets/8f474802-53bd-4fce-999c-9da3566688f6" />
+
 	A webrádió kizárólag internetes streamek lejátszására képes.
 
 	Önállóan, Wi-Fi és internetkapcsolat hiányában nem működik!
 
 	Támogatott Wi-Fi-szabvány: 2,4 GHz
   
-<img width="756" height="482" alt="Render" src="https://github.com/user-attachments/assets/8f474802-53bd-4fce-999c-9da3566688f6" />
+
 
 
 Funkciók:

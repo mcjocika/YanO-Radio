@@ -1,5 +1,6 @@
 Wifi web rádió
 
+![IMG_20260307_084840](https://github.com/user-attachments/assets/3a6bfadd-b1a1-4026-a0ad-a73887c85e3c)
 
 	A webrádió kizárólag internetes streamek lejátszására képes.
 

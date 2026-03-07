@@ -1,10 +1,8 @@
-Wifi web rádió
+Wi-Fi web rádió
 
 <img width="1278" height="953" alt="szólarádio" src="https://github.com/user-attachments/assets/853d9433-2151-4788-a318-95719ffab846" />
 
-	A webrádió kizárólag internetes streamek lejátszására képes.
-
-	Önállóan, Wi-Fi és internetkapcsolat hiányában nem működik!
+	A webrádió kizárólag vezeték nélküli hálózat megléte esetén működik!
 
 	Támogatott Wi-Fi-szabvány: 2,4 GHz
   

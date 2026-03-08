@@ -34,7 +34,7 @@ Nyelvek, teruleti beallitasok:
 	A fájlok helye:     
 	PlatformIO esetén a \yoRadio\\.pio\libdeps\esp32-s3-devkitc1-n16r8\Adafruit GFX Library\glcdfont.c
 
-Ha nálad nem jelennek meg helyesen a karakterek, akkor ezt a fájlt le kell cserélni a nyelvedhez tartozó fájlra. A WiFi kijelzés és hangszóró kijelzés helytelenül jelenik meg, valamint azoknál a nyelveknél, melyek az angoltól eltérő karakterkészletet használnak (ékezetest), különböző a nyelvekhez szerkesztett fájlt kell használni és arra lecserélni az eredetit.
+Ha nálad nem jelennek meg helyesen a karakterek, akkor ezt a fájlt le kell cserélni a nyelvedhez tartozó fájlra. Különböző a nyelvekhez szerkesztett fájlt kell használni és arra lecserélni az eredetit.
 Ezek itt találhatóak a programban:
 
       yoRadio/locale/glcdfont/EN, NL, CZ/glcdfont.c

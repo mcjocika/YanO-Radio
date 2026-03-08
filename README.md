@@ -8,6 +8,8 @@
 	kijelzőhöz készült és csak az audioI2S DAC eszközzel működik megfelelően, [PCM5102A](PCM5102A) -val tesztelve!
 
 	- Nem támogatja az ESP32-t PSRAM memória nélkül.
+	
+	- OLED-es rotary az idő, dátum, névnap és időjárás megjelenítéhez.
 
 Ez a konfiguráció néhány további könyvtártól függ. Kérlek, telepítsd őket a könyvtárkezelővel vagy PlatformIO(AJÁNLOT!) esetén használd a mellékelt platformio.ini fájlt.
 	
@@ -50,12 +52,6 @@ A névnapok tárolása az alábbi fájlokban történik.
       local/namedays/namedays_PL.h
       local/namedays/namedays_GR.h  
       local/namedays/namedays_DE.h
-
-Ha más nyelven szeretnéd használni vedd fel velem a kapcsolatot.
-
-	Ha nem szeretnéd megjeleníteni, akkor kommenteld ki a sort,    
-	// #define NAMEDAYS_FILE HU   
-	vagy a WEB-es felületen kikapcsolható options/tools-> Namedays gombbal.
 
 Wi-Fi web rádió
 

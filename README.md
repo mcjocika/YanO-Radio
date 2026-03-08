@@ -9,7 +9,7 @@
 
 	- Nem támogatja az ESP32-t PSRAM memória nélkül.
 
-Ez a konfiguráció néhány további könyvtártól függ. Kérlek, telepítsd őket a könyvtárkezelővel vagy PlatformIO esetén használd a mellékelt platformio.ini fájlt.
+Ez a konfiguráció néhány további könyvtártól függ. Kérlek, telepítsd őket a könyvtárkezelővel vagy PlatformIO(AJÁNLOT!) esetén használd a mellékelt platformio.ini fájlt.
 	
 	adafruit/Adafruit GFX Library@^1.12.3
     adafruit/Adafruit ILI9341@^1.6.2

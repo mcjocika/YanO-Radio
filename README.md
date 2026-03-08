@@ -1,3 +1,62 @@
+
+!!! Figyelem !!!
+
+	Ez a verzió kizárólag az esp32-s3-devkitc1-n16r8 44 lábú modulhoz és
+
+	- ILI9341 320x240 felbontású SPI (LCD)
+
+	kijelzőhöz készült és csak az audioI2S DAC eszközzel működik megfelelően, [PCM5102A](PCM5102A) -val tesztelve!
+
+	- Nem támogatja az ESP32-t PSRAM memória nélkül.
+
+Ez a konfiguráció néhány további könyvtártól függ. Kérlek, telepítsd őket a könyvtárkezelővel vagy PlatformIO esetén használd a mellékelt platformio.ini fájlt.
+	
+	adafruit/Adafruit GFX Library@^1.12.3
+    adafruit/Adafruit ILI9341@^1.6.2
+    ;paulstoffregen/XPT2046_Touchscreen@0.0.0-alpha+sha.26b691b2c8
+    adafruit/RTClib@^2.1.4
+    ;moononournation/GFX Library for Arduino@^1.4.7 ;only for Gution & GC9A01 onboard ESP
+    ;adafruit/Adafruit CST8XX Library ;only for GC9A01 onboard ESP
+    olikraus/U8g2 @ ^2.35.19
+    ; --- DLNA browser (SoapESP32) + DLNA MediaRenderer ---
+    yellobyte/SoapESP32@^1.4.1
+    https://github.com/pschatzmann/arduino-dlna.git
+
+Nyelvek, teruleti beallitasok:
+
+	Aprogram beépített nyelveket és területi beállításokat tartalmaz HU, PL, GR, EN, RU, NL, SK, UA, DE nyelveken.   
+	A myoptions.h fájlban az alábbi paranccsal állíthatod be.   
+	#define L10N_LANGUAGE HU
+
+	A program az Adafruit_GFX librarit használja, ahol egy 5x7 pixel méretű fontot skáláz fel a kért méret függvényében. Ez a font a glcdfont.c fájlban van megrajzolva.    
+	A fájlok helye:     
+	PlatformIO esetén a \yoRadio\\.pio\libdeps\esp32-s3-devkitc1-n16r8\Adafruit GFX Library\glcdfont.c
+
+Ha nálad nem jelennek meg helyesen a karakterek, akkor ezt a fájlt le kell cserélni a nyelvedhez tartozó fájlra. A WiFi kijelzés és hangszóró kijelzés helytelenül jelenik meg, valamint azoknál a nyelveknél, melyek az angoltól eltérő karakterkészletet használnak (ékezetest), különböző a nyelvekhez szerkesztett fájlt kell használni és arra lecserélni az eredetit.
+Ezek itt találhatóak a programban:
+
+      yoRadio/locale/glcdfont/EN, NL, CZ/glcdfont.c
+      yoRadio/locale/glcdfont/GR/glcdfont.c
+      yoRadio/locale/glcdfont/HU, DE/glcdfont.c
+      yoRadio/locale/glcdfont/PL, SK, DE/glcdfont.c
+      yoRadio/locale/glcdfont/RU/glcdfont.c
+      yoRadio/locale/glcdfont/UA/glcdfont.c
+
+A myoptions.h fájlban beállított pin-ek ajánlottak a helyes működéshez.
+
+A névnapok tárolása az alábbi fájlokban történik.
+
+      local/namedays/namedays_HU.h
+      local/namedays/namedays_PL.h
+      local/namedays/namedays_GR.h  
+      local/namedays/namedays_DE.h
+
+Ha más nyelven szeretnéd használni vedd fel velem a kapcsolatot.
+
+	Ha nem szeretnéd megjeleníteni, akkor kommenteld ki a sort,    
+	// #define NAMEDAYS_FILE HU   
+	vagy a WEB-es felületen kikapcsolható options/tools-> Namedays gombbal.
+
 Wi-Fi web rádió
 
 ![20260307_091635-ANIMATION (2)](https://github.com/user-attachments/assets/178ce886-e70d-478f-87d8-cc7de209b08f)
